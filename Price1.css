@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+.vectro {
+  position: relative;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.1px #f1f1f1;
+  font-family: 'Righteous', cursive;
+  font-size: 70px;
+  margin: 0px 0 0px 0;
+  background-color:black;
+  text-align:center;
+}
+
+.vectro:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /*-webkit-animation:vectro_effect 0.067s infinite;*/
+  background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, rgba(255,255,255,0) 1px, rgba(255,255,255,0) 2px);
+}
+
+.windows .vectro {
+  -webkit-text-stroke: 4px #f1f1f1;
+}
+
+.vectro-body {
+  -webkit-background-clip: text;
+  background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 100%);
+  -webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+}
+
+.vectro-red {
+  color: #3F59F4;
+  -webkit-text-fill-color: #3F59F4;
+  -webkit-text-stroke: 0;
+  -webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+  font-style: italic;
+  padding-right: 20px;
+}
+
+.windows .vectro-red {
+  padding-right: 30px;
+}
+
+.vectro-green {
+  color: #6BFF2B;
+  -webkit-text-fill-color: #6BFF2B;
+  -webkit-filter: drop-shadow(2px 2px 15px #6BFF2B);
+  -webkit-text-stroke: 0;
+  font-style: italic;
+  padding-right: 20px;
+  margin-left: -20px;
+}
+
+.windows .vectro-green {
+  padding-right: 30px;
+  margin-left: -30px;
+}
+
+.vectro-blue {
+  color: #3F59F4;
+  -webkit-text-fill-color: #3F59F4;
+  -webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+  -webkit-text-stroke: 0;
+  font-style: italic;
+  padding-right: 20px;
+  margin-left: -20px;
+}
+
+.windows .vectro-blue {
+  padding-right: 30px;
+  margin-left: -30px;
+}
+
+* {box-sizing: border-box;}
+
+#wrapper{
+	/*position: fixed;*/
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: url('beautiful-beautiful-road-wallpaper_072313779_201.jpg') no-repeat fixed;
+	background-size: 1500px 700px;
+	margin: 0;
+	color:white;
+	font-family: "Franklin Gothic Medium Cond";
+	font-size: 22px;
+}
+
+footer{
+	overflow:hidden; 
+	text-align:center;
+    background:black; 
+    color:white; 
+    padding:30px;
+    font-weight:bold;
+}
+
+
+@charset "UTF-8";
+
+
+.frame1{
+	width: 390px;
+	height: 350px;
+	border-radius: 10px;
+	margin: 10px 15px 10px 20px;
+}
+
+.frame2{
+	width: 390px;
+	height: 350px;
+	border-radius: 10px;
+	margin: 10px 15px 10px 20px;
+}
+
+.frame3{
+	width: 390px;
+	height: 350px;
+	border-radius: 10px;
+	margin: 10px 15px 10px 20px;
+	position: absolute;
+}
+
+.item{
+	width:100%;
+	height: 500px;
+	display: flex;
+}
+
+.item1{
+	width: 900px;
+	height: 450px;
+	/*border-width: thick;
+	border: .5px solid blue;*/
+	border-radius: 10px;
+	display: inline-block;	
+	color: white;	
+	margin: 15px 20px 10px 20px;
+}
+
+.item2{
+	width: 900px;
+	height: 450px;
+	/*border: .5px solid blue;
+	border-radius: 10px;*/
+	display: inline-block;
+	color: white;		
+	margin: 15px 20px 10px 20px;
+}
+
+.item3{
+	width: 900px;
+	height: 450px;
+	/*border: .5px solid blue;
+	border-radius: 10px;*/
+	margin: 15px 20px 10px 20px;
+	color: white;
+	display: inline-block;
+}
+
+.image{
+	width: 400px;
+	height: 250px;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+	border-radius: 5px;
+	border: 3px solid lightblue;
+	background-color: white;
+}
+
+.itembody{
+	text-align: 1px;
+	margin: 10px 2px 2px 30px;
+}
+
+.carname{
+	color: white;
+	margin-top: 3px;
+	/*font-size: 20px;*/
+	text-align: center;
+	text-border: black;
+	/*font-family:"Franklin Gothic Demi Cond";*/
+}
+
+.line{
+	color: blue;
+}
+
+.button{
+	height: 30px;
+	width: 130px;
+	right: 10px;
+	position: absolute;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+	background:gray;
+}
+
+.buttonclass{
+	position: relative;
+}
+
+.text{
+	margin: 0 0 10px 0;
+	text-align: center;
+	color: white;
+	/*opacity: 0.7;*/
+	font-family: "Franklin Gothic Medium Cond";
+	font-size: 40px;
+}
+
+
+.button{ background:darkgreen; 
+         color:white; 
+         height:30px; 
+         width:130px; 
+         border-radius: 5px 5px 5px 5px; 
+         font-size: 18px;
+         position:absolute;
+         right:10px;
+	     
+}
+.buttonimage{
+	position:relative;
+}
+
+.image{
+	height:250px; 
+	width:400px;
+	border:3px solid green;
+	border-radius:5px;
+	background:white;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+    height: 400px; /* Should be removed. Only for demonstration */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-spacing: 2.5em;
+}
+
+

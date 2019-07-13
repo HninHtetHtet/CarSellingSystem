@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+		<link rel="stylesheet" href="styles.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="script.js"></script>
+		<script type="text/javascript" src="engine2/jquery.js"></script>
+		
+		<style>
+			@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+			@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+			@import url(https://fonts.googleapis.com/css?family=Righteous);
+			@import url(https://fonts.googleapis.com/css?family=Candal);
+
+			@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+			@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+			.vectro {
+				position: relative;
+				-webkit-text-fill-color: transparent;
+				-webkit-text-stroke: 0.1px #f1f1f1;
+				font-family: 'Righteous', cursive;
+				font-size: 70px;
+				margin: 0px 0 0px 0;
+				background-color: black;
+				text-align: center;
+			}
+
+			.vectro:after {
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				/*-webkit-animation:vectro_effect 0.067s infinite;*/
+				background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, rgba(255,255,255,0) 1px, rgba(255,255,255,0) 2px);
+			}
+
+			.windows .vectro {
+				-webkit-text-stroke: 4px #f1f1f1;
+			}
+
+			.vectro-body {
+				-webkit-background-clip: text;
+				background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 100%);
+				-webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+			}
+
+			.vectro-red {
+				color: #3F59F4;
+				-webkit-text-fill-color: #3F59F4;
+				-webkit-text-stroke: 0;
+				-webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+				font-style: italic;
+				padding-right: 20px;
+			}
+
+			.windows .vectro-red {
+				padding-right: 30px;
+			}
+
+			.vectro-green {
+				color: #6BFF2B;
+				-webkit-text-fill-color: #6BFF2B;
+				-webkit-filter: drop-shadow(2px 2px 15px #6BFF2B);
+				-webkit-text-stroke: 0;
+				font-style: italic;
+				padding-right: 20px;
+				margin-left: -20px;
+			}
+
+			.windows .vectro-green {
+				padding-right: 30px;
+				margin-left: -30px;
+			}
+
+			.vectro-blue {
+				color: #3F59F4;
+				-webkit-text-fill-color: #3F59F4;
+				-webkit-filter: drop-shadow(2px 2px 15px #3F59F4);
+				-webkit-text-stroke: 0;
+				font-style: italic;
+				padding-right: 20px;
+				margin-left: -20px;
+			}
+
+			.windows .vectro-blue {
+				padding-right: 30px;
+				margin-left: -30px;
+			}
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+
+				font-family: Arial, Helvetica, sans-serif;
+				background: url('HOG-02.jpg') no-repeat fixed;
+				background-size: 1400px 700px;
+				margin: 0;
+			}
+
+			.type {
+				background-color: #2B3856;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 30px;
+				color: #8AFB17;
+				margin: 10px 5px 10px 5px;
+				padding: 10px 10px 10px 10px;
+			}
+
+			.table {
+
+				border: 5px solid #98AFC7;
+				border-radius: 30px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				width: 950px;
+			}
+			
+			.table1 {
+
+				border: 5px solid #98AFC7;
+				border-radius: 30px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.img {
+				width: 400px;
+				height: 300px;
+				margin: -90px 20px 5px 20px;
+			}
+
+			.tab {
+				border: 3px solid none;
+				position: relative;
+				width: 500px;
+			}
+
+			.lan {
+
+				color: #C3BFB4;
+			}
+			
+			#wowslider-container1 {
+
+				display: table;
+				zoom: 1;
+				position: relative;
+				width: 100%;
+				max-width: 830px;
+				max-height: 360px;
+				margin-top: 50px;
+				margin-left: 360px;
+				margin-right: 360px;
+				z-index: 90;
+				text-align: left; /* reset align=center */
+				font-size: 10px;
+				text-shadow: none; /* fix some user styles */
+				/* reset box-sizing (to boostrap friendly) */
+				-webkit-box-sizing: content-box;
+				-moz-box-sizing: content-box;
+				box-sizing: content-box;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="wrapper">
+  
+	<h1 class="vectro">
+				<span class="vectro-body">Pentagon</span><span class="vectro-red">I</span><span class="vectro-green">I</span><span class="vectro-blue">I</span>
+			</h1>
+  </div>
+  
+<div id='cssmenu'>
+<ul>
+   <li class="active"><a href="Home.html"><span>Home</span></a></li>
+   <li><a href="manufacturer.html"><span>Manufacturer</span></a></li>
+   <li><a href='#'><span>Price</span></a>
+   	 <ul>
+          <li class='has-sub'><a href="Price(10K_20K).html"><span>$10k - $20k</span></a></li>
+         <li class='has-sub'><a href="Price(20K_30K).html"><span>$20k - $30k</span></a></li>
+         <li class='has-sub'><a href="Price(30K_40K).html"><span>$30k - $40k</span></a></li>
+         <li class='has-sub'><a href="Price(40K_50K).html"><span>$40k - $50k</span></a></li>
+         <li class='has-sub'><a href="Price(over 50K).html"><span>Above $50k</span></a></li>
+     </ul></li>
+   <li><a href='#'><span>Year</span></a>
+     <ul><li class='has-sub'><a href="year_2015.html"><span>2015</span></a></li>
+         <li class='has-sub'><a href="year_2016.html"><span>2016</span></a></li>
+         <li class='has-sub'><a href="year_2017.html"><span>2017</span></a></li>
+         <li class='has-sub'><a href="year_2018.html"><span>2018</span></a></li>
+     </ul></li>
+   <li class='last'><a href='About.html'><span>About Us</span></a></li>
+</ul>
+</div>	
+<br>
+		<p style="padding:0px 200px 0px 100px;float:right;margin-right: 144px">
+			<mark class="type">
+				$83,000
+			</mark>
+		</p>
+		<p style="margin-left: 354px;">	
+			
+			<mark class="type">
+				<b>Chevrolet</b>
+			</mark>
+			<mark class="type">
+				<i>Corvette</i>
+			</mark>
+		</p>
+
+		<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="images/chevrolet/2017_chevrolet_corvette_angularfront.jpg" height="100%" alt="2016 Best Seller Cars" title="2016 Best Seller Cars" id="wows1_0"/></li>
+		<li><img src="images/chevrolet/2017_chevrolet_corvette_sideview.jpg" height="100%"  alt="css slider" title="2017 Best Seller Cars" id="wows1_1"/></a></li>
+		<li><img src="images/chevrolet/2017_chevrolet_corvette_angularrear.jpg" height="100%" alt="2018 Best Seller Cars" title="2018 Best Seller Cars" id="wows1_2"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#wows1_0" title="2016 Best Seller Cars"></a>
+		<a href="#wows1_1" title="2017 Best Seller Cars"></a>
+		<a href="#wows1_2" title="2018 Best Seller Cars"></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery image carousel</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<br>
+
+		
+		<table class="table1">
+			<tr>
+				<td><p style="width:10px;"></p></td>
+				<td><p style="font-family: Arial, Helvetica, sans-serif;font-size: 30px;color: #8AFBFF;">
+			Available colors
+		</p></td>
+		<td><p style="width:50px;;"></p></td>
+				<td><img title="Black" alt="Black" width="50px" height="50px" src= "color/Black.png"/></td>
+				<td><p style="width:50px;"></p></td>
+				<td><img title="Blue" alt="Blue" width="50px" height="50px" src= "color/Blue.png"/></td>
+				<td><p style="width:50px;"></p></td>
+				<td><img title="Red" alt="Red" width="55px" height="55px" src= "color/Red.png"/></td>
+				<td><p style="width:50px;"></p></td>
+				<td><img title="Silver" alt="Silver" width="50px" height="50px" src= "color/Silver.png"/></td>
+				<td><p style="width:50px;"></p></td>
+				<td><img title="White" alt="White" width="50px" height="50px" src= "color/White.png"/></td>
+				<td><p style="width:10px;"></p></td>
+			</tr>
+		</table>
+		<table class="table">
+			<tr>
+
+				<td><p style="width:90px;"></p></td>
+				<td class="tab"><img title="Engine Power Icon" alt="Engine Power Icon" src= "icon/engine_power.svg"/></td>
+				<td class="tab">
+				<p class="lan">
+					460HP				</p></td>
+
+				<td><p style="width:200px;"></p></td>
+				<td class="tab"><img title="Mileage Icon" alt="Mileage Icon" src= "icon/mileage.svg"/></td>
+				<td class="tab">
+				<p class="lan">
+					175MPH
+				</p></td>
+
+			</tr>
+			<tr>
+				<td><p style="width:90px;"></p></td>
+				<td class="tab"><img title="Transmission Icon" alt="Transmission Icon" src= "icon/transmission.svg"/></td>
+				<td class="tab">
+				<p class="lan">
+					Auto
+				</p></td>
+
+				<td><p style="width:200px;"></p></td>
+				<td class="tab"><img title="Fuel Icon" alt="FuelIcon" src= "icon/fuel.svg"/></td>
+				<td class="tab">
+				<p class="lan">
+					Petrol
+				</p></td>
+			</tr>
+			<tr>
+				<td><p style="width:90px;"></p></td>
+				<td class="tab"><img title="Calender Icon" alt="Calender Icon" width="100px" height="50px" src= "icon/calender.svg"/></td>
+				<td class="tab">
+				<p class="lan">
+					2017
+				</p></td>
+
+				<td><p style="width:200px;"></p></td>
+				<td class="tab"><img title="Seat Icon" alt="Seat Icon" width="30px" height="30px" src= "icon/seat.svg"/></td>
+				<td class="tab">
+				<p class="lan">
+					2
+				</p></td>
+
+			</tr>
+			<tr>
+				<td><p style="width:90px;"></p></td>
+				<td class="tab"><img title="Steering Icon" alt="Steering Icon" src= "icon/steering.svg"/></td>
+				<td class="tab">
+				<p class="lan">
+					Left Hand Drive
+				</p></td>
+
+				<td><p style="width:200px;"></p></td>
+				<td><p style="width:100px;"></p></td>
+			</tr>
+		</table>
+    <br />
+     <br />
+     <br />
+	</body>
+	<footer style="overflow:hidden;  text-align:center; background:black; color:white; padding:30px; font-weight:bold;">
+		Copyright &copy; UIT JavaScript project ,credit: w3schools and informations from internet.
+	</footer>
+</html>
